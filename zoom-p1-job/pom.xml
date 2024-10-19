@@ -56,6 +56,11 @@
             <artifactId>zoom-sofa-rpc</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.hb0730</groupId>
+            <artifactId>zoom-opentelemetry-configuration</artifactId>
+        </dependency>
+
 
         <dependency>
             <groupId>com.hb0730</groupId>

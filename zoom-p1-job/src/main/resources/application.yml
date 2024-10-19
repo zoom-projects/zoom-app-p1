@@ -6,6 +6,7 @@ spring:
     name: zoom-p1-job
   datasource:
     dynamic:
+      primary: master
       datasource:
         master:
           url: jdbc:mysql://localhost:3306/zoom?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
@@ -74,4 +75,17 @@ sofa:
       bolt-port: 12301
     tracer:
       disable-digest-log: true
+
+otel:
+  sdk:
+    disabled: false
+  exporter:
+    otlp:
+      endpoint: http://localhost:5080/api/default
+      headers:
+        Authorization: Basic cm9vdEBleGFtcGxlLmNvbTp4Q1dtemlzMVpHTFZpSFZi
+        stream-name: default
+  instrumentation:
+    jdbc:
+      enabled: false
 
