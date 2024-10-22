@@ -1,6 +1,6 @@
 package com.hb0730.zoom.biz.job;
 
-import com.hb0730.zoom.base.service.proxy.SysProxyService;
+import com.hb0730.zoom.base.ext.services.proxy.SysProxyService;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.DisallowConcurrentExecution;
 import org.quartz.Job;

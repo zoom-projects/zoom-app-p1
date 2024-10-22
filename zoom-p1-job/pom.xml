@@ -55,21 +55,18 @@
             <groupId>com.hb0730</groupId>
             <artifactId>zoom-sofa-rpc</artifactId>
         </dependency>
-
         <dependency>
             <groupId>com.hb0730</groupId>
             <artifactId>zoom-opentelemetry-configuration</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>com.hb0730</groupId>
+            <artifactId>zoom-base-ext</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>com.hb0730</groupId>
             <artifactId>zoom-conf</artifactId>
-            <version>${parent.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.hb0730</groupId>
-            <artifactId>zoom-base-rpc</artifactId>
             <version>${parent.version}</version>
         </dependency>
         <dependency>
