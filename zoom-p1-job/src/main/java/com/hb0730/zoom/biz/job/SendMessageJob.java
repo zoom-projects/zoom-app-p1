@@ -8,6 +8,8 @@ import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.Collections;
+
 /**
  * @author <a href="mailto:huangbing0730@gmail">hb0730</a>
  * @date 2024/10/19
@@ -21,6 +23,6 @@ public class SendMessageJob implements Job {
     @Override
     public void execute(JobExecutionContext context) throws JobExecutionException {
         log.info("发送消息任务 SendMessageJob !");
-        messageService.doSendMessages(null);
+        messageService.doSendMessages(Collections.emptyMap());
     }
 }
