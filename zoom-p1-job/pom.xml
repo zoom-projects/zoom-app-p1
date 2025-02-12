@@ -63,17 +63,14 @@
         <dependency>
             <groupId>com.hb0730</groupId>
             <artifactId>zoom-base-ext</artifactId>
-            <version>${zoom.version}</version>
         </dependency>
         <dependency>
             <groupId>com.hb0730</groupId>
             <artifactId>zoom-conf</artifactId>
-            <version>${zoom.version}</version>
         </dependency>
         <dependency>
             <groupId>com.hb0730</groupId>
             <artifactId>zoom-job</artifactId>
-            <version>${zoom.version}</version>
         </dependency>
     </dependencies>
 
